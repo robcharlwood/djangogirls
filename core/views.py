@@ -1,9 +1,9 @@
 import icalendar
 
 from django.http import HttpResponse, Http404
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 
-from .models import Event, EventPage, EventPageMenu, EventPageContent, Story
+from .models import Event, EventPageMenu, EventPageContent, Story
 from .utils import get_event_page
 
 
